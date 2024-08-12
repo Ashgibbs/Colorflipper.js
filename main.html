@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COLOUR FLIPPER</title>
+        <style>
+           #green{
+                background-color: green;
+            }
+            #red{
+                background-color: red;
+            }
+            #blue{
+                background-color: blue;
+            }
+            button{
+                border-radius: 10px;
+                width: 200px;
+                height: 50px;
+                margin: 7px;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+
+            }
+        </style> 
+    </head>
+    <body>
+        <h3>Color Flipper</h3>
+        <button id="green" onclick="setColor('green')">Green</button>
+        <button id="blue" onclick="setColor('blue')">BLUE</button>
+        <button id="red" onclick="setColor('red')">Red</button>
+        <button id="Random" onclick="random()">Random</button>
+        <script src="index.js"></script>
+    </body>
+</html>
